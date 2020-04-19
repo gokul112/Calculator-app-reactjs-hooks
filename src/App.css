@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.key-input input{
+  width: 345px;
+  min-height: 40px;
+  border: 2px solid black;
+  border-radius: 7px;
+  font-size: 20px;
+  font-weight: 1000;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.keypad{
+  position: relative;
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 12px;
+  margin: 10px auto;
+  padding: 20px 20px 100px 20px;
+}
+button{
+  background:#efefef;
+  width: 20%;
+  min-height: 40px;
+  font-size: 20px;
+  font-weight: 1000;
+  border-radius: 7px;
+  margin-left: 13px;
+  margin-top: 10px;
+}
+.add,.sub,.multi,.div,.equal,.deci{ 
+  background-color: orange;
+}
+.clear,.AC{
+  width: 172px;
+}
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+button:hover {
+  background-color: orange;
+  color: white;
+}
